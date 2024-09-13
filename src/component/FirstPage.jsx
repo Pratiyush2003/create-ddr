@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { showfarmer } from "../assets/features/Apihandler";
-import ShowInput from "./showInput";
-import FarmerTable from "./FarmerTable";
 
 const FirstPage = () => {
   const { farmer } = useSelector((state) => state.app);

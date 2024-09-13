@@ -1,8 +1,8 @@
 import React from 'react'
+import ShowInput from './component/ShowInput'
 import FirstPage from './component/FirstPage'
-import './App.css'
-import ShowInput from './component/showInput'
 import FarmerTable from './component/FarmerTable'
+import './App.css'
 
 const App = () => {
   return (
