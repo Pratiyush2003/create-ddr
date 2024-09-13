@@ -1,7 +1,7 @@
 import React from 'react'
 import FirstPage from './component/FirstPage'
 import './App.css'
-import ShowInput from './component/showInput'
+import ShowInput from './component/ShowInput'
 import FarmerTable from './component/FarmerTable'
 
 const App = () => {
