@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { showfarmer } from "../assets/features/Apihandler";
 
 const FirstPage = () => {
-  const { farmer } = useSelector((state) => state.app);
+
   const dispatch = useDispatch();
 
   useEffect(() => {
