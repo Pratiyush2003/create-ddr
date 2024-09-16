@@ -28,6 +28,7 @@ const ShowInput = () => {
   const handleSubmit = () => {
     const submissionData = { ...input, farmerCode };
     dispatch(createfarmer(submissionData));
+    alert(submissionData);
   };
 
   const debouncedSearch = useCallback(
